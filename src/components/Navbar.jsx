@@ -86,7 +86,8 @@ const handleCloseLoginPopup = () => {
                             <Link to="/apod" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '/apod' ? 'bg-white text-black' : ''}`}>Astronomy</Link>
                             <Link to="/image-vedio-audio" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '/image-vedio-audio' ? 'bg-white text-black' : ''}`}>Media</Link>
                             <Link to="/about" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '/about' ? 'bg-white text-black' : ''}`}>About Us</Link>
-                            <Link to="/contact" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '#' ? 'bg-white text-black' : ''}`}>Contact</Link>
+                            <Link to="/contact" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '#' ? 'bg-white text-black' : ''}`}>Contact Us</Link>
+                            
                         </div>
                     )}
                 </div>
@@ -96,8 +97,9 @@ const handleCloseLoginPopup = () => {
                     <Link to="/" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/' ? 'border-b-2 border-white pt' : ''}`}>Home</Link>
                     <Link to="/apod" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/apod' ? 'border-b-2 border-white' : ''}`}>Astronomy</Link>
                     <Link to="/image-vedio-audio" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/image-vedio-audio' ? 'border-b-2 border-white' : ''}`}>Media</Link>
+                    <Link to="/astroid" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/astroid' ? 'border-b-2 border-white' : ''}`}>Asteroids</Link>
                     <Link to="/about" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/about' ? 'border-b-2 border-white' : ''}`}>About Us</Link>
-                    <Link to="/contact" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/contact' ? 'border-b-2 border-white' : ''}`}>Contact</Link>
+                    <Link to="/contact" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/contact' ? 'border-b-2 border-white' : ''}`}>Contact Us</Link>
                     
                 </div>
 

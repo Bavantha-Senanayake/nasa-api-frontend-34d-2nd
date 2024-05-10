@@ -40,10 +40,10 @@ const Home = () => {
             </div>
             {/* Article 3 */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="https://via.placeholder.com/400" alt="Article 3" className="w-full h-64 object-cover" />
+              <img src="../assets/shutterstock_2235358723.jpg" alt="Article 3" className="w-full h-64 object-cover" />
               <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">Journey to the Planets</h3>
-                <p className="text-gray-700">Learn about the unique characteristics of each planet in our solar system.</p>
+                <h3 className="text-xl font-semibold mb-2">Explore the Asteroids </h3>
+                <p className="text-gray-700">Learn about the near earth objects and asteroids.</p>
               </div>
             </div>
           </div>
