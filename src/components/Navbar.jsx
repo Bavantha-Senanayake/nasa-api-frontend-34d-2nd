@@ -82,7 +82,7 @@ const handleCloseLoginPopup = () => {
                     {/* Dropdown menu */}
                     {menuOpen && (
                         <div className="absolute top-full right-0 mt-2 bg-cyan-950 text-white w-48 py-2 shadow-lg">
-                            <Link to="/home" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '/home' ? 'bg-white text-black' : ''}`}>Home</Link>
+                            <Link to="/home" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '/' ? 'bg-white text-black' : ''}`}>Home</Link>
                             <Link to="/apod" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '/apod' ? 'bg-white text-black' : ''}`}>Astronomy</Link>
                             <Link to="/image-vedio-audio" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '/image-vedio-audio' ? 'bg-white text-black' : ''}`}>Media</Link>
                             <Link to="/about" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '#' ? 'bg-white text-black' : ''}`}>About Us</Link>
@@ -93,7 +93,7 @@ const handleCloseLoginPopup = () => {
 
                 {/* Navigation links (visible on non-responsive screens) */}
                 <div className="hidden md:flex items-center space-x-10">
-                    <Link to="/home" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/home' ? 'border-b-2 border-white pt' : ''}`}>Home</Link>
+                    <Link to="/home" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/' ? 'border-b-2 border-white pt' : ''}`}>Home</Link>
                     <Link to="/apod" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/apod' ? 'border-b-2 border-white' : ''}`}>Astronomy</Link>
                     <Link to="/image-vedio-audio" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/image-vedio-audio' ? 'border-b-2 border-white' : ''}`}>Media</Link>
                     <Link to="/about" className={`text-white text-base hover:border-b-2 border-white ${location.pathname === '/about' ? 'border-b-2 border-white' : ''}`}>About Us</Link>
