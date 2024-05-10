@@ -18,7 +18,7 @@ const App = () => {
     <div classname='app'>
       
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/home' element={<Home />} />
         <Route path='/apod' element={<ApodPage />} />
         <Route path='/vedios' element={<VedioPage />} />
         <Route path='/vedio' element={<VideoPlayerPage />} />
