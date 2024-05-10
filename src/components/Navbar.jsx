@@ -82,7 +82,7 @@ const handleCloseLoginPopup = () => {
                     {/* Dropdown menu */}
                     {menuOpen && (
                         <div className="absolute top-full right-0 mt-2 bg-cyan-950 text-white w-48 py-2 shadow-lg">
-                            <Link to="/home" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '/apod' ? 'bg-white text-black' : ''}`}>Home</Link>
+                            <Link to="/home" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '/' ? 'bg-white text-black' : ''}`}>Home</Link>
                             <Link to="/apod" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '/apod' ? 'bg-white text-black' : ''}`}>Astronomy</Link>
                             <Link to="/image-vedio-audio" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '/image-vedio-audio' ? 'bg-white text-black' : ''}`}>Media</Link>
                             <Link to="/about" className={`block px-4 py-2 hover:bg-gray-800 ${location.pathname === '#' ? 'bg-white text-black' : ''}`}>About Us</Link>
