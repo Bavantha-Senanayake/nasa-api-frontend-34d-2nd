@@ -13,6 +13,7 @@ import ContactUs from './pages/ContactUs'
 import Login from './pages/LoginSignUp'
 import SignUp from './components/SignUp'
 import Navbar from './components/Navbar'
+import Astroid from './pages/Astroid'
 const App = () => {
   return (
     <div classname='app'>
@@ -29,6 +30,7 @@ const App = () => {
         <Route path='/contact' element={<ContactUs />} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<SignUp />} />
+        <Route path='/astroid' element={<Astroid />} />
          </Routes>
     </div>
   )
